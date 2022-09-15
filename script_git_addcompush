@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
-read -p "Enter Commit Msg: "
+read -p "Enter Commit Msg: " -n 50
 git commit -m "$REPLY"
 git push
